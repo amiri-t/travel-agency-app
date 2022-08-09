@@ -1,0 +1,55 @@
+.footer {
+  background-image: url(../../assets/bg7.jpg);
+  background-size: cover;
+  color: white;
+}
+.footer .columns {
+  padding: 5em 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .col1 p {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+.footer .column p {
+  cursor: pointer;
+}
+.footer .col1 .icon {
+  font-size: 24px;
+}
+.footer .column h3 {
+  font-size: 24px;
+}
+.footer .copyright {
+  display: flex;
+  gap: 20px;
+  padding-left: 2rem;
+}
+.footer .copyright span {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+@media (max-width: 710px) {
+  .footer .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .column {
+    text-align: center;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
